@@ -2,7 +2,6 @@ const Home = () => {
   return (
     <>
       {/* Banner Area */}
-
       <div className="banner-slider-area-one">
         {/* Start Slider Area  */}
         <div className="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
@@ -186,11 +185,8 @@ const Home = () => {
           </div>
         </div>
         {/* End Slider Area  */}
-        <div className="bg-line-animatoin-area-global"></div>
       </div>
-
       {/* Service Area */}
-
       <div className="tmp-service-area tmp-section-gap">
         <div className="container">
           <div className="row">
@@ -340,9 +336,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       {/* About Area */}
-
       <div className="about-area about-style-4 tmp-section-gapBottom">
         <div className="container">
           <div className="row align-items-center">
@@ -633,9 +627,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
           </div>
         </div>
       </div>
-
       {/* Key Benefits Area */}
-
       <div className="tmp-counterup-area tmp-section-gapBottom">
         <div className="container">
           <div className="row">
@@ -718,9 +710,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
           </div>
         </div>
       </div>
-
       {/* Work Process */}
-
       <div className="tmp-timeline-area tmp-section-gapBottom">
         <div className="container">
           <div className="row">
@@ -861,6 +851,747 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       We evaluate results, gather feedback, and provide ongoing
                       assistance for consistent client satisfaction..
                     </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Industries */}
+      <div className="my-business-service-area tmp-section-gapBottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="title-flex-between">
+                <div className="tmp-section-title-border text-start">
+                  <div className="pres-line-separator-wrapper text-start mb--10">
+                    <span className="subtitle">
+                      <span className="subtitle-text">Inustries We Serve</span>
+                    </span>
+                    <div className="line-separator line-right"></div>
+                  </div>
+                  <h2 className="title w-700 tmp-title-split">
+                    Innovative Screening Solutions for
+                    <br /> Your Industry Needs.
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row g-5 mt--20">
+            <div className="col-lg-12">
+              <div
+                className="single-service-list-area"
+                data-sal="slide-up"
+                data-sal-duration="700"
+                data-sal-delay="100"
+              >
+                <div className="row g-5 align-items-center">
+                  <div className="col-lg-6">
+                    <a href="#" className="thumbnail-service-list invers-anime">
+                      <img
+                        src="/assets/main/images/services/list/01.webp"
+                        alt="Business consulting"
+                      />
+                    </a>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="inner-content">
+                      <div className="head">
+                        <div className="icon">
+                          <img
+                            src="/assets/main/images/services/list/icon/01.svg"
+                            alt="Business"
+                          />
+                        </div>
+                        <h6 className="title">Healthcare & Social Care</h6>
+                      </div>
+                      <p className="disc">
+                        Hospitals, clinics, and care homes rely on background
+                        checks to verify the integrity and credentials of
+                        medical and caregiving staff — ensuring patient safety
+                        and regulatory compliance.
+                      </p>
+                      <a className="tmp-btn hover-icon-reverse" href="#">
+                        <span className="icon-reverse-wrapper">
+                          <span className="btn-text">See Details</span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="single-service-list-area"
+                data-sal="slide-up"
+                data-sal-duration="700"
+                data-sal-delay="100"
+              >
+                <div className="row g-5 align-items-center">
+                  <div className="col-lg-6 order-2 order-lg-1 order-md-2 order-sm-2">
+                    <div className="inner-content">
+                      <div className="head">
+                        <div className="icon">
+                          <img
+                            src="/assets/main/images/services/list/icon/02.svg"
+                            alt="Business"
+                          />
+                        </div>
+                        <h6 className="title">Education & Childcare</h6>
+                      </div>
+                      <p className="disc">
+                        Schools, nurseries, and youth organizations must
+                        safeguard children by screening teachers, staff, and
+                        volunteers for past offences or misconduct before
+                        employment.
+                      </p>
+                      <a className="tmp-btn hover-icon-reverse" href="#">
+                        <span className="icon-reverse-wrapper">
+                          <span className="btn-text">See Details</span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
+                    <a href="#" className="thumbnail-service-list invers-anime">
+                      <img
+                        src="/assets/main/images/services/list/02.webp"
+                        alt="Business consulting"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="single-service-list-area"
+                data-sal="slide-up"
+                data-sal-duration="700"
+                data-sal-delay="100"
+              >
+                <div className="row g-5 align-items-center">
+                  <div className="col-lg-6">
+                    <a href="#" className="thumbnail-service-list invers-anime">
+                      <img
+                        src="/assets/main/images/services/list/03.webp"
+                        alt="Business consulting"
+                      />
+                    </a>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="inner-content">
+                      <div className="head">
+                        <div className="icon">
+                          <img
+                            src="/assets/main/images/services/list/icon/03.svg"
+                            alt="Business"
+                          />
+                        </div>
+                        <h6 className="title">
+                          Corporate & Financial Institutions
+                        </h6>
+                      </div>
+                      <p className="disc">
+                        Banks, fintechs, and corporates use background screening
+                        to validate employee honesty, reduce insider risks, and
+                        meet anti-fraud and compliance standards.
+                      </p>
+                      <a className="tmp-btn hover-icon-reverse" href="#">
+                        <span className="icon-reverse-wrapper">
+                          <span className="btn-text">See Details</span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="single-service-list-area"
+                data-sal="slide-up"
+                data-sal-duration="700"
+                data-sal-delay="100"
+              >
+                <div className="row g-5 align-items-center">
+                  <div className="col-lg-6 order-2 order-lg-1 order-md-2 order-sm-2">
+                    <div className="inner-content">
+                      <div className="head">
+                        <div className="icon">
+                          <img
+                            src="/assets/main/images/services/list/icon/04.svg"
+                            alt="Business"
+                          />
+                        </div>
+                        <h6 className="title">
+                          Recruitment & Staffing Agencies
+                        </h6>
+                      </div>
+                      <p className="disc">
+                        Agencies need fast, verifiable checks on candidates
+                        before placement, maintaining client confidence and
+                        compliance with employment regulations.
+                      </p>
+                      <a className="tmp-btn hover-icon-reverse" href="#">
+                        <span className="icon-reverse-wrapper">
+                          <span className="btn-text">See Details</span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                          <span className="btn-icon">
+                            <i className="feather-arrow-right"></i>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
+                    <a href="#" className="thumbnail-service-list invers-anime">
+                      <img
+                        src="/assets/main/images/services/list/04.webp"
+                        alt="Business consulting"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Pricing */}
+      <div className="tmp-pricing-area tmp-section-gapBottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="tmp-section-title-border text-center">
+                <div className="pres-line-separator-wrapper text-center mb--10">
+                  <div className="line-separator line-left"></div>
+                  <span className="subtitle">
+                    <span className="number">03</span>
+                    <span className="subtitle-text">Our Pricing</span>
+                  </span>
+                  <div className="line-separator line-right"></div>
+                </div>
+                <h2 className="title  tmp-title-split">
+                  Our Yearly & Monthly Pricing
+                </h2>
+                <p className="description b1 tmp-title-split-p">
+                  Easily schedule your appointment with just a few clicks. Our
+                  team is <br /> always ready to assist you at your preferred
+                  time.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row mt--20">
+            <div className="col-lg-12">
+              <ul
+                className="nav nav-tabs pricing-tab-nav-yearly"
+                id="myTab"
+                role="tablist"
+              >
+                <li className="nav-item" role="presentation">
+                  <button
+                    className="nav-link tmp-btn btn-border active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home"
+                    type="button"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    Monthly Plan
+                  </button>
+                </li>
+                <li className="nav-item" role="presentation">
+                  <button
+                    className="nav-link tmp-btn btn-border"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                  >
+                    Yearly Plan
+                  </button>
+                </li>
+              </ul>
+              <div
+                className="tab-content pricing-table-items mt--40"
+                id="myTabContent"
+              >
+                <div
+                  className="tab-pane fade show active"
+                  id="home"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                >
+                  <div className="row g-5">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <div
+                        className="pricing-table large-padding tmponhover"
+                        // @ts-expect-error/style
+                        style={{ "--x": "473.5px", "--y": "112.109375px" }}
+                      >
+                        <div className="pricing-table-header">
+                          <div className="top d-flex justify-content-between align-items-start">
+                            <h4>basic</h4>
+                          </div>
+                          <h1>
+                            $59 <span>/ Month</span>
+                          </h1>
+                        </div>
+                        <ul className="feature-lists">
+                          <li>Basic identity & criminal record check</li>
+                          <li>Quick online submission</li>
+                          <li>Results delivered within 3–5 business days</li>
+                          <li>Remote/online process</li>
+                          <li>Limited email support (1 month)</li>
+                        </ul>
+                        <a
+                          href="#"
+                          className="tmp-btn btn-primary btn-border w-100"
+                        >
+                          Pick This Package
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <div
+                        className="pricing-table large-padding tmponhover"
+                        // @ts-expect-error/style
+                        style={{ "--x": "473.5px", "--y": "112.109375px" }}
+                      >
+                        <div className="pricing-table-header">
+                          <div className="top d-flex justify-content-between align-items-start">
+                            <h4>Standard</h4>
+                          </div>
+                          <h1>
+                            $159 <span>/ Month</span>
+                          </h1>
+                        </div>
+                        <ul className="feature-lists">
+                          <li>Standard identity & criminal record check</li>
+                          <li>Employment & reference verification</li>
+                          <li>Results delivered within 2–3 business days</li>
+                          <li>Remote/online process</li>
+                          <li>Support via email & phone (3 months)</li>
+                        </ul>
+                        <div className="popular-tag">Popular</div>
+                        <a href="#" className="tmp-btn btn-primary w-100">
+                          Pick This Package
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <div
+                        className="pricing-table large-padding tmponhover"
+                        // @ts-expect-error/style
+                        style={{ "--x": "473.5px", "--y": "112.109375px" }}
+                      >
+                        <div className="pricing-table-header">
+                          <div className="top d-flex justify-content-between align-items-start">
+                            <h4>Premium</h4>
+                          </div>
+                          <h1>
+                            $259 <span>/ Month</span>
+                          </h1>
+                        </div>
+                        <ul className="feature-lists">
+                          <li>
+                            Enhanced & comprehensive criminal record check
+                          </li>
+                          <li>
+                            Employment, reference, and education verification
+                          </li>
+                          <li>Fast-track results within 24–48 hours</li>
+                          <li>Remote/online process</li>
+                          <li>Dedicated support (6 months)</li>
+                        </ul>
+                        <a
+                          href="#"
+                          className="tmp-btn btn-border btn-primary w-100"
+                        >
+                          Pick This Package
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="profile"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                >
+                  <div className="row g-5">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <div
+                        className="pricing-table large-padding tmponhover"
+                        // @ts-expect-error/style
+                        style={{ "--x": "473.5px", "--y": "112.109375px" }}
+                      >
+                        <div className="pricing-table-header">
+                          <div className="top d-flex justify-content-between align-items-start">
+                            <h4>basic</h4>
+                          </div>
+                          <h1>
+                            $159 <span>/ Year</span>
+                          </h1>
+                        </div>
+                        <ul className="feature-lists">
+                          <li>Basic identity & criminal record check</li>
+                          <li>Quick online submission</li>
+                          <li>Results delivered within 3–5 business days</li>
+                          <li>Remote/online process</li>
+                          <li>Limited email support (1 month)</li>
+                        </ul>
+                        <a
+                          href="#"
+                          className="tmp-btn btn-border btn-primary w-100"
+                        >
+                          Pick This Package
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <div
+                        className="pricing-table large-padding tmponhover"
+                        // @ts-expect-error/style
+                        style={{ "--x": "473.5px", "--y": "112.109375px" }}
+                      >
+                        <div className="pricing-table-header">
+                          <div className="top d-flex justify-content-between align-items-start">
+                            <h4>Standard</h4>
+                          </div>
+                          <h1>
+                            $259 <span>/ Year</span>
+                          </h1>
+                        </div>
+                        <ul className="feature-lists">
+                          <li>Standard identity & criminal record check</li>
+                          <li>Employment & reference verification</li>
+                          <li>Results delivered within 2–3 business days</li>
+                          <li>Remote/online process</li>
+                          <li>Support via email & phone (3 months)</li>
+                        </ul>
+                        <div className="popular-tag">Popular</div>
+                        <a href="#" className="tmp-btn btn-primary w-100">
+                          Pick This Package
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 col-sm-12">
+                      <div
+                        className="pricing-table large-padding tmponhover"
+                        // @ts-expect-error/style
+                        style={{ "--x": "473.5px", "--y": "112.109375px" }}
+                      >
+                        <div className="pricing-table-header">
+                          <div className="top d-flex justify-content-between align-items-start">
+                            <h4>Premium</h4>
+                          </div>
+                          <h1>
+                            $759 <span>/ Year</span>
+                          </h1>
+                        </div>
+                        <ul className="feature-lists">
+                          <li>
+                            Enhanced & comprehensive criminal record check
+                          </li>
+                          <li>
+                            Employment, reference, and education verification
+                          </li>
+                          <li>Fast-track results within 24–48 hours</li>
+                          <li>Remote/online process</li>
+                          <li>Dedicated support (6 months)</li>
+                        </ul>
+                        <a
+                          href="#"
+                          className="tmp-btn  btn-border btn-primary w-100"
+                        >
+                          Pick This Package
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* FAQ */}
+      <div className="tmp-faq-area tmp-section-gap faq-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 offset-lg-1">
+              <div className="section-title text-center mb-20">
+                <h4 className="subtitle">FAQ'S</h4>
+                <h2 className="title mb-50 tmp-title-split">
+                  Frequently Asked Questions
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-6">
+              <div
+                className="thumbnail"
+                data-sal="slide-right"
+                data-sal-duration="800"
+              >
+                <img
+                  className="w-100 radius"
+                  loading="lazy"
+                  src="/assets/main/images/about/about-4.png"
+                  alt="About Images"
+                />
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div
+                className="tmp-accordion-style accordion"
+                data-sal="slide-up"
+                data-sal-duration="800"
+              >
+                <div className="accordion" id="accordionExamplea">
+                  <div className="accordion-item card tmponhover">
+                    <h2
+                      className="accordion-header card-header"
+                      id="headingOne"
+                    >
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What types of checks are available?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      className="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExamplea"
+                    >
+                      <div className="accordion-body card-body">
+                        The software offers Basic, Standard, and Enhanced checks
+                        to suit different needs.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item card tmponhover">
+                    <h2
+                      className="accordion-header card-header"
+                      id="headingTwo"
+                    >
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Can I submit applications online?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExamplea"
+                    >
+                      <div className="accordion-body card-body">
+                        Yes, all applications can be completed and submitted
+                        entirely online.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item card tmponhover">
+                    <h2
+                      className="accordion-header card-header"
+                      id="headingThree"
+                    >
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        How long does it take to get results?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExamplea"
+                    >
+                      <div className="accordion-body card-body">
+                        Results are typically processed quickly, depending on
+                        the check type.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item card tmponhover">
+                    <h2
+                      className="accordion-header card-header"
+                      id="headingFour"
+                    >
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        Is my data secure?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExamplea"
+                    >
+                      <div className="accordion-body card-body">
+                        Yes, all information is encrypted and handled in
+                        compliance with legal standards.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* CTA */}
+      <div className="tmp-callto-action-area tmp-section-gapBottom">
+        <div className="wrapper">
+          <div className="tmp-callto-action-area with-shape position-relative">
+            <div className="wrapper">
+              <div className="tmp-callto-action clltoaction-style-default style-5">
+                <div className="container">
+                  <div className="row row--0 align-items-center content-wrapper theme-shape">
+                    <div className="col-lg-12">
+                      <div className="inner">
+                        <div className="content text-center">
+                          <h2 className="title tmp-title-split">
+                            Ready to begin your <br />
+                            background check?
+                          </h2>
+                          <h6 className="subtitle tmp-title-split">
+                            The trusted choice for individuals and organizations
+                            worldwide.
+                          </h6>
+                          <div className="call-to-btn d-flex justify-content-center">
+                            <a
+                              className="tmp-btn btn-extra-large hover-icon-reverse"
+                              href="#"
+                            >
+                              <span className="icon-reverse-wrapper">
+                                <span className="btn-text">Request a Demo</span>
+                                <span className="btn-icon">
+                                  <i className="feather-arrow-right"></i>
+                                </span>
+                                <span className="btn-icon">
+                                  <i className="feather-arrow-right"></i>
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div className="tmp-profile-box mt--50">
+                          <div className="profile-share justify-content-center">
+                            <a
+                              href="#"
+                              className="avatar"
+                              data-tooltip="Mark JOrdan"
+                            >
+                              <img
+                                src="/assets/main/images/testimonial/tooltip-01.png"
+                                alt="education"
+                              />
+                            </a>
+                            <a href="#" className="avatar" data-tooltip="Mark">
+                              <img
+                                src="/assets/main/images/testimonial/tooltip-02.png"
+                                alt="education"
+                              />
+                            </a>
+                            <a
+                              href="#"
+                              className="avatar"
+                              data-tooltip="Jordan"
+                            >
+                              <img
+                                src="/assets/main/images/testimonial/tooltip-03.png"
+                                alt="education"
+                              />
+                            </a>
+                            <div className="more-author-text">
+                              <h5 className="total-join-students">
+                                Join Other Organizations
+                              </h5>
+                              <p className="subtitle">
+                                <a className="btn-read-more" href="#">
+                                  <span>Contact Us</span>
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="shape-image wow move-out">
+                                        <img src="/assets/main/images/shape/01.png" alt="call-to-action">
+                                    </div> */}
+                    <div className="person-stand images-left-right-float">
+                      <img
+                        loading="lazy"
+                        src="/assets/main/images/call-to-action/01.png"
+                        alt="call-to-action"
+                      />
+                    </div>
+                    <div className="bg-shape-area-cta-main tmponhover">
+                      <img
+                        loading="lazy"
+                        src="/assets/main/images/shape/02.webp"
+                        alt=""
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
