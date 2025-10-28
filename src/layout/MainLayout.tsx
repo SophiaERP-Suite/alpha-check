@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/main/Header";
-import Footer from "../components/main/Footer";
+// import Footer from "../components/main/Footer";
 import "../assets/main/css/vendor/bootstrap.min.css";
 import "../assets/main/css/plugins/animation.css";
 import "../assets/main/css/plugins/feature.css";
@@ -15,6 +15,7 @@ import feather from "feather-icons";
 
 const MainLayout = () => {
   useEffect(() => {
+    document.title = "ClearTrust Africa";
     feather.replace();
 
     const scriptUrls = [
@@ -75,7 +76,7 @@ const MainLayout = () => {
         <Outlet />
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
 
       <div className="scrollbar-v show-on-scroll"></div>
       <div className="float-text show-on-scroll">

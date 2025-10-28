@@ -670,7 +670,9 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                 <div>
                   <div className="count-number">Enhanced Accuracy</div>
                 </div>
-                <h5 className="counter-title">Employees</h5>
+                <h5 className="counter-title">
+                  Minimize errors with reliable, up-to-date data.
+                </h5>
                 <div className="left-hover-counter"></div>
                 <div className="right-hover-counter"></div>
               </div>
@@ -682,14 +684,11 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
             >
               <div className="count-box counter-style-4 tmp-card text-center without-border tmponhover">
                 <div>
-                  <div className="count-number">
-                    <span className="odometer" data-count="69">
-                      00
-                    </span>
-                    M
-                  </div>
+                  <div className="count-number">Streamlined Process</div>
                 </div>
-                <h5 className="counter-title">Useful Programs</h5>
+                <h5 className="counter-title">
+                  Simplified online checks reduce paperwork and manual effort.
+                </h5>
                 <div className="left-hover-counter"></div>
                 <div className="right-hover-counter"></div>
               </div>
@@ -701,14 +700,12 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
             >
               <div className="count-box counter-style-4 tmp-card text-center without-border tmponhover">
                 <div>
-                  <div className="count-number">
-                    <span className="odometer" data-count="500">
-                      000
-                    </span>
-                    +
-                  </div>
+                  <div className="count-number">Complete Assurance</div>
                 </div>
-                <h5 className="counter-title">Useful Programs</h5>
+                <h6 className="counter-title">
+                  Keep your organization or personal records secure and fully
+                  compliant.
+                </h6>
                 <div className="left-hover-counter"></div>
                 <div className="right-hover-counter"></div>
               </div>

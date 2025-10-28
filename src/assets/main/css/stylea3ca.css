@@ -16768,7 +16768,7 @@ main.business-coatch .thumbnail-banner-business-coatch img {
 .counter-style-4 .counter-title {
   margin-top: 22px;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   color: var(--color-body);
 }
 
@@ -16791,7 +16791,7 @@ main.business-coatch .thumbnail-banner-business-coatch img {
 }
 
 .counter-style-4 .count-number {
-  font-size: 44px;
+  font-size: 24px;
   line-height: 1.2;
   font-weight: 700;
   color: var(--color-heading);
