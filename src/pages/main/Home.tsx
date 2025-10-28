@@ -2,6 +2,7 @@ const Home = () => {
   return (
     <>
       {/* Banner Area */}
+
       <div className="banner-slider-area-one">
         {/* Start Slider Area  */}
         <div className="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
@@ -187,7 +188,9 @@ const Home = () => {
         {/* End Slider Area  */}
         <div className="bg-line-animatoin-area-global"></div>
       </div>
+
       {/* Service Area */}
+
       <div className="tmp-service-area tmp-section-gap">
         <div className="container">
           <div className="row">
@@ -337,7 +340,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* About Area */}
+
       <div className="about-area about-style-4 tmp-section-gapBottom">
         <div className="container">
           <div className="row align-items-center">
@@ -708,6 +713,152 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                 </h6>
                 <div className="left-hover-counter"></div>
                 <div className="right-hover-counter"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Work Process */}
+
+      <div className="tmp-timeline-area tmp-section-gapBottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="tmp-section-title-border text-center">
+                <div className="pres-line-separator-wrapper text-center mb--10">
+                  <div className="line-separator line-left"></div>
+                  <span className="subtitle">
+                    <span className="number">+3</span>
+                    <span className="subtitle-text">Working Process</span>
+                  </span>
+                  <div className="line-separator line-right"></div>
+                </div>
+                <h2 className="title  tmp-title-split">
+                  Our Method of Operation
+                </h2>
+                <p className="b1 tmp-title-split">
+                  We simplify your spending, giving you effortless control and
+                  peace of mind.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row mt--10">
+            <div className="timeline-style-two bg-color-blackest">
+              <div className="row row--0">
+                <div className="col-lg-3 col-md-3 tmp-timeline-single no-gradient">
+                  <div className="tmp-timeline">
+                    <h6
+                      className="title"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="200"
+                    >
+                      Knowledge
+                    </h6>
+                    <div className="progress-line">
+                      <div className="line-inner"></div>
+                    </div>
+                    <div className="progress-dot">
+                      <div className="dot-level">
+                        <div className="dot-inner"></div>
+                      </div>
+                    </div>
+                    <p
+                      className="description"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="300"
+                    >
+                      Present all available features in Essentials.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-3 tmp-timeline-single no-gradient">
+                  <div className="tmp-timeline">
+                    <h6
+                      className="title"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="200"
+                    >
+                      Working
+                    </h6>
+                    <div className="progress-line">
+                      <div className="line-inner"></div>
+                    </div>
+                    <div className="progress-dot">
+                      <div className="dot-level">
+                        <div className="dot-inner"></div>
+                      </div>
+                    </div>
+                    <p
+                      className="description"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="300"
+                    >
+                      All Feature available features in Essentials.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-3 tmp-timeline-single no-gradient">
+                  <div className="tmp-timeline">
+                    <h6
+                      className="title"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="200"
+                    >
+                      Solution
+                    </h6>
+                    <div className="progress-line">
+                      <div className="line-inner"></div>
+                    </div>
+                    <div className="progress-dot">
+                      <div className="dot-level">
+                        <div className="dot-inner"></div>
+                      </div>
+                    </div>
+                    <p
+                      className="description"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="300"
+                    >
+                      Popular Feature available features in Essentials.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-3 tmp-timeline-single no-gradient">
+                  <div className="tmp-timeline">
+                    <h6
+                      className="title"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="200"
+                    >
+                      Process
+                    </h6>
+                    <div className="progress-line">
+                      <div className="line-inner"></div>
+                    </div>
+                    <div className="progress-dot">
+                      <div className="dot-level">
+                        <div className="dot-inner"></div>
+                      </div>
+                    </div>
+                    <p
+                      className="description"
+                      data-sal="slide-up"
+                      data-sal-duration="700"
+                      data-sal-delay="300"
+                    >
+                      Latest Feature available features in Essentials.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

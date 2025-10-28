@@ -99,12 +99,12 @@ const MainLayout = () => {
           <a href="#">
             <img
               className="logo-light"
-              src="/assets/main/images/logo/clear.png"
+              src="/assets/main/images/logo/clear1.png"
               alt="Corporate Logo"
             />
             <img
               className="logo-dark"
-              src="/assets/main/images/logo/clear.png"
+              src="/assets/main/images/logo/clear2.png"
               alt="Corporate Logo"
             />
           </a>
