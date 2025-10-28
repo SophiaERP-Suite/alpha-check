@@ -119,7 +119,7 @@ const Header = () => {
                       </span>
                     </span>
                   </div>
-                  <a className="tmp-btn round" href="/admin">
+                  <a className="tmp-btn round" href="https://clear-trust-africa-admin.vercel.app/dashboard">
                     Admin Portal
                   </a>
                 </div>
