@@ -66,7 +66,7 @@ const Header = () => {
                 <a href="index.html">
                   <img
                     className="logo-light"
-                    src="/assets/main/images/logo/clear.png"
+                    src="/assets/main/images/logo/clear3.png"
                     alt="Corporate Logo"
                   />
                   <img
@@ -123,7 +123,10 @@ const Header = () => {
                       </span>
                     </span>
                   </div>
-                  <a className="tmp-btn round" href="https://clear-trust-africa-admin.vercel.app/dashboard">
+                  <a
+                    className="tmp-btn round"
+                    href="https://clear-trust-africa-admin.vercel.app/dashboard"
+                  >
                     Admin Portal
                   </a>
                 </div>
