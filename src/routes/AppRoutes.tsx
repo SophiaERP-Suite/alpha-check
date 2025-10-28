@@ -9,7 +9,6 @@ function AppRoutes() {
         <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
       </Route>
-
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
