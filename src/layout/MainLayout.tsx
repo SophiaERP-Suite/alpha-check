@@ -95,15 +95,15 @@ const MainLayout = () => {
           <i className="feather-x"></i>
         </button>
         <div className="logo-side">
-          <a href="index.html">
+          <a href="#">
             <img
               className="logo-light"
-              src="/assets/main/images/logo/logo.png"
+              src="/assets/main/images/logo/clear.png"
               alt="Corporate Logo"
             />
             <img
               className="logo-dark"
-              src="/assets/main/images/logo/logo-dark.png"
+              src="/assets/main/images/logo/clear.png"
               alt="Corporate Logo"
             />
           </a>
@@ -112,19 +112,20 @@ const MainLayout = () => {
           <div className="contact-list">
             <h4>Office Address</h4>
             <p>
-              456/B, Madison Avenue Kora Road
-              <br /> New York, NY 10022
+              <a href="https://maps.app.goo.gl/aXfsjpTHZpoo2E7j9">
+                28-31 Plumbridge St
+                <br />
+                Greenwich SE10 8PA
+              </a>
             </p>
           </div>
           <div className="contact-list">
             <h4>Phone Number</h4>
-            <a href="tel:+8801712345678">+0989 7876 9865 9</a>
-            <a href="tel:+8801712345678">+(090) 8765 86543 85</a>
+            <a href="tel:+442084691888">+44 20 8469 1888</a>
           </div>
           <div className="contact-list">
             <h4>Email Address</h4>
-            <a href="mailto:info@yourdomain.com">info@example.com</a>
-            <a href="mailto:info@yourdomain.com">example.mail@hum.com</a>
+            <a href="mailto:info@alphachildcare.com">info@alphachildcare.com</a>
           </div>
         </div>
 
@@ -264,23 +265,27 @@ const MainLayout = () => {
 
         <ul className="social-icon social-default justify-content-start mt--30">
           <li>
-            <a href="https://www.facebook.com/">
+            <a
+              href="https://www.facebook.com/Alpha_Childcare-100153735026940"
+              target="_blank"
+            >
               <i className="feather-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com/">
-              <i className="feather-twitter"></i>
+            <a
+              href="https://www.youtube.com/channel/UCF6CTF2_t9GokCgUQ_6eT1A"
+              target="_blank"
+            >
+              <i className="feather-youtube"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/">
+            <a
+              href="https://www.instagram.com/alpha_childcare/"
+              target="_blank"
+            >
               <i className="feather-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkdin.com/">
-              <i className="feather-linkedin"></i>
             </a>
           </li>
         </ul>

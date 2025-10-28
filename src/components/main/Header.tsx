@@ -14,35 +14,39 @@ const Header = () => {
                 <div className="address-content">
                   <p>
                     <i data-feather="map-pin"></i>
-                    <span>Alabama, USA</span>
+                    <span>Greenwich, UK</span>
                   </p>
                   <p>
                     <i data-feather="phone"></i>
                     <span>
-                      <a href="#">+06 58 49 99 56</a>
+                      <a href="tel:+442084691888">+44 20 8469 1888</a>
                     </span>
                   </p>
                 </div>
                 <div className="social-icon-wrapper">
                   <ul className="social-icon social-default icon-naked">
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a
+                        href="https://www.facebook.com/Alpha_Childcare-100153735026940"
+                        target="_blank"
+                      >
                         <i data-feather="facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.twitter.com/">
-                        <i data-feather="twitter"></i>
+                      <a
+                        href="https://www.youtube.com/channel/UCF6CTF2_t9GokCgUQ_6eT1A"
+                        target="_blank"
+                      >
+                        <i data-feather="youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/">
+                      <a
+                        href="https://www.instagram.com/alpha_childcare/"
+                        target="_blank"
+                      >
                         <i data-feather="instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkdin.com/">
-                        <i data-feather="linkedin"></i>
                       </a>
                     </li>
                   </ul>
@@ -62,12 +66,12 @@ const Header = () => {
                 <a href="index.html">
                   <img
                     className="logo-light"
-                    src="/assets/main/images/logo/logo.png"
+                    src="/assets/main/images/logo/clear.png"
                     alt="Corporate Logo"
                   />
                   <img
                     className="logo-dark"
-                    src="/assets/main/images/logo/logo-dark.png"
+                    src="/assets/main/images/logo/clear.png"
                     alt="Corporate Logo"
                   />
                 </a>

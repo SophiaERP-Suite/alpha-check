@@ -14461,7 +14461,7 @@ Primary style
 .btn-default i {
   padding-left: 6px;
   display: inline-block;
-  top: 2px;
+  top: -2px;
   position: relative;
   font-size: 17px;
 }
@@ -34595,5 +34595,3 @@ body.tmp-body-star::before {
 .active-light-mode.splash_bg .banner-splash-area p.description {
   color: #fff;
 }
-
-/*# sourceMappingURL=../maps/style.css.map */
