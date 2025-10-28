@@ -755,7 +755,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="200"
                     >
-                      Knowledge
+                      Consultation & Discovery
                     </h6>
                     <div className="progress-line">
                       <div className="line-inner"></div>
@@ -771,7 +771,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="300"
                     >
-                      Present all available features in Essentials.
+                      We begin by understanding your needs, goals, and
+                      expectations through clear communication and assessment.
                     </p>
                   </div>
                 </div>
@@ -783,7 +784,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="200"
                     >
-                      Working
+                      Planning & Strategy
                     </h6>
                     <div className="progress-line">
                       <div className="line-inner"></div>
@@ -799,7 +800,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="300"
                     >
-                      All Feature available features in Essentials.
+                      Our experts create a tailored action plan designed to
+                      deliver efficiency, quality, and measurable outcomes.
                     </p>
                   </div>
                 </div>
@@ -811,7 +813,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="200"
                     >
-                      Solution
+                      Execution & Delivery
                     </h6>
                     <div className="progress-line">
                       <div className="line-inner"></div>
@@ -827,7 +829,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="300"
                     >
-                      Popular Feature available features in Essentials.
+                      Each stage is handled with precision and professionalism
+                      to ensure timely and reliable project completion.
                     </p>
                   </div>
                 </div>
@@ -839,7 +842,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="200"
                     >
-                      Process
+                      Review & Support
                     </h6>
                     <div className="progress-line">
                       <div className="line-inner"></div>
@@ -855,7 +858,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-duration="700"
                       data-sal-delay="300"
                     >
-                      Latest Feature available features in Essentials.
+                      We evaluate results, gather feedback, and provide ongoing
+                      assistance for consistent client satisfaction.
                     </p>
                   </div>
                 </div>
