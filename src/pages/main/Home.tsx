@@ -859,7 +859,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-delay="300"
                     >
                       We evaluate results, gather feedback, and provide ongoing
-                      assistance for consistent client satisfaction.
+                      assistance for consistent client satisfaction..
                     </p>
                   </div>
                 </div>
