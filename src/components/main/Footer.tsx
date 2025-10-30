@@ -36,7 +36,7 @@ const Footer = () => {
                       <a href="#">Login</a>
                     </li>
                     <li>
-                      <a href="#">About</a>
+                      <a href="/about">About</a>
                     </li>
                     <li>
                       <a href="#">Solutions</a>
@@ -123,7 +123,7 @@ const Footer = () => {
                     <a href="#">Terms And Condition</a>
                   </li>
                   <li>
-                    <a href="#">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 /*********************************************************************************
   Template Name: Corpox - Business & Consulting Bootstrap5 Template
   Description: Transform your business with expert consulting. Our team delivers strategic insights, innovative solutions, and professional guidance to help you achieve lasting success.
@@ -13166,6 +13167,8 @@ Primary style
   line-height: 1;
 }
 
+
+
 @media only screen and (max-width: 1199px) {
   .has-menu-child-item>a::after {
     right: -7px;
@@ -21164,7 +21167,7 @@ Timeline Area
 }
 
 .pricing-table-items .pricing-table .pricing-table-header h1 {
-  font-size: 48px;
+  font-size: 30px;
   color: var(--color-primary);
   font-weight: 600;
   margin: 0;
@@ -21408,6 +21411,7 @@ Timeline Area
 .contact-form-1 .form-group input {
   height: 70px;
   padding: 0 20px;
+  color: black;
 }
 
 .contact-form-1 .form-group textarea {
@@ -21686,7 +21690,8 @@ Timeline Area
 }
 
 .brand-style-1 li a {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .brand-style-1 li a img {
@@ -34615,4 +34620,223 @@ body.tmp-body-star::before {
 .dark-footer {
   background: #1b1b1b !important;
   color: white !important;
+}
+
+
+.get-started-box {
+  position: relative;
+}
+
+.get-started-btn {
+  cursor: pointer;
+  border-radius: 8px !important;
+}
+
+.get-started-box ul {
+  position: absolute;
+  top: 100%;
+  background: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  border-radius: 8px;
+  display: none;
+  overflow: hidden;
+  width: max-content;
+  animation: authScroll 0.5s linear 0s 1 normal both;
+}
+
+.get-started-box:hover ul {
+  display: block !important;
+}
+
+.get-started-box ul li {
+  width: 100%;
+  margin: 0 !important;
+}
+
+
+.get-started-box ul li a {
+  padding: 1rem 2rem;
+  padding-right: 30px;
+  border-radius: 8px;
+  transition: all 0.3s;
+  font-size: 1.65rem;
+  display: block;
+
+}
+
+.get-started-box ul li a:hover {
+  background: #ededed !important;
+  margin-left: 5px;
+}
+
+.other-pages .slick-dots li button {
+  display: none !important;
+}
+
+.pages-banner {
+  position: relative;
+  background: url(/assets/main/images/bg/bg-image-10.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16rem 10rem;
+  padding-right: 1rem;
+
+}
+
+.pages-banner h2 {
+  color: white;
+}
+
+.pages-banner ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  column-gap: 30px;
+}
+
+.pages-banner ul li {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+
+}
+
+.pages-banner ul li a {
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+}
+
+.pages-banner ul li a::before {
+  content: "\203A";
+  position: absolute;
+  font-size: 26px;
+  inset-inline-end: -20px;
+  opacity: 1;
+  color: white;
+  font-family: remixicon !important;
+}
+
+.pages-banner ul li a:hover {
+  color: var(--color-primary);
+}
+
+.register-tag {
+  padding-bottom: 60px !important;
+}
+
+.register-form-row {
+  --bs-gutter-y: 1rem;
+}
+
+.register-form-row label {
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.submit-btn {
+  padding: 0 5rem;
+}
+
+
+.submit-btn button {
+  width: 100%;
+}
+
+.register-form-type {
+  cursor: pointer;
+}
+
+.register-form-type.active {
+  background: var(--color-primary);
+}
+
+.register-form-type.active.tmponhover::after {
+  background: var(--color-primary);
+  color: white;
+}
+
+.register-form-type.active h4.title,
+.register-form-type.active i {
+  color: white;
+}
+
+.feature-lists li {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: baseline;
+}
+
+.feature-lists li svg {
+  flex-shrink: 0;
+}
+
+.cart-container {
+  margin-left: 30px;
+}
+
+.cart-container .cart-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cart-icon svg {
+  width: 28px;
+  height: 28px;
+  transition: all 0.3s;
+}
+
+
+.header-default.header-transparent.header-one.sticky .cart-icon svg path,
+.header-not-transparent .cart-icon svg path {
+  fill: black;
+}
+
+.cart-icon svg path {
+  transition: all 0.3s;
+}
+
+.cart-container:hover .cart-icon svg path {
+  fill: var(--color-primary) !important;
+}
+
+.register-type {
+  text-transform: capitalize;
+}
+
+.contact-details {
+  padding-bottom: 50px !important;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 992px) {
+
+  .other-pages .slick-list.draggable {
+    height: 400px !important;
+  }
+}
+
+/* Animations */
+
+@keyframes authScroll {
+  from {
+    max-height: 0;
+  }
+
+  to {
+    max-height: 1000px;
+  }
 }

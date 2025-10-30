@@ -1,4 +1,22 @@
+import { useContext } from "react";
+import { RegisterContext } from "../../utils/main/Contextx";
+import { Link, useLocation } from "react-router-dom";
+import { FaCartShopping } from "react-icons/fa6";
+
+const secondHeaderPaths = ["login"];
+
 const Header = () => {
+  const { setRegisterType } = useContext(RegisterContext);
+
+  const pagePath = useLocation()
+    .pathname.split("/")
+    .filter((value) => value)[0];
+
+  const handleRegisterChange = (value: string) => () => {
+    setRegisterType(value);
+    window.scrollTo({ top: 0 });
+  };
+
   return (
     <>
       <div className="header-top-bar">
@@ -58,7 +76,13 @@ const Header = () => {
       </div>
 
       {/* Start Header Area  */}
-      <header className="tmp-header header-default header-transparent logo-white-show default-nav-white header-sticky header-one">
+      <header
+        className={
+          secondHeaderPaths.includes(pagePath)
+            ? "tmp-header header-default header-not-transparent header-sticky-smooth header-sticky"
+            : "tmp-header header-default header-transparent logo-white-show default-nav-white header-sticky header-one"
+        }
+      >
         <div className="container position-relative">
           <div className="row align-items-center row--0">
             <div className="col-xl-2 col-lg-2 col-md-6 col-4">
@@ -90,23 +114,12 @@ const Header = () => {
                     <li className="with-megamenu">
                       <a href="#">Services</a>
                     </li>
-                    <li className="has-droupdown has-menu-child-item">
-                      <a href="#">Solutions</a>
-                      <ul className="submenu">
-                        <li>
-                          <a href="#">For Schools</a>
-                        </li>
-                        <li>
-                          <a href="#">For Other Organizations</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="has-droupdown ">
-                      <a href="#">Pricing</a>
+                    <li className="with-megamenu">
+                      <a href="#">Request </a>
                     </li>
 
                     <li>
-                      <a href="#">Contact</a>
+                      <a href="/login">Login</a>
                     </li>
                   </ul>
                 </nav>
@@ -123,12 +136,46 @@ const Header = () => {
                       </span>
                     </span>
                   </div>
-                  <a
-                    className="tmp-btn round"
-                    href="https://clear-trust-africa-admin.vercel.app/dashboard"
-                  >
-                    Admin Portal
-                  </a>
+                  <div className="get-started-box">
+                    <a className="tmp-btn round  get-started-btn">
+                      Get Started
+                    </a>
+
+                    <ul>
+                      <li>
+                        <Link
+                          to={"/register"}
+                          onClick={handleRegisterChange("agent")}
+                        >
+                          As Agent
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to={"/register"}
+                          onClick={handleRegisterChange("employer")}
+                        >
+                          As Employer
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to={"/register"}
+                          onClick={handleRegisterChange("institution")}
+                        >
+                          As Institution
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="cart-container">
+                    <span>
+                      <span className="cart-icon">
+                        <FaCartShopping />
+                      </span>
+                    </span>
+                  </div>
                 </div>
                 {/* End Header Btn  */}
 
@@ -146,6 +193,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+
       {/* End Header Area  */}
       <div className="popup-mobile-menu">
         <div className="inner">
