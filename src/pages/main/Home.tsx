@@ -1,3 +1,5 @@
+import { MdOutlineRadioButtonChecked } from "react-icons/md";
+
 const Home = () => {
   return (
     <>
@@ -619,8 +621,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                     mind.
                   </p>
                 </div>
-                <a href="#" className="tmp-btn btn-primary">
-                  Our Services
+                <a href="/about" className="tmp-btn btn-primary">
+                  More About Us
                 </a>
               </div>
             </div>
@@ -728,8 +730,8 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                   Our Method of Operation
                 </h2>
                 <p className="b1 tmp-title-split">
-                  We simplify your spending, giving you effortless control and
-                  peace of mind.
+                  We streamline your background checks, giving you seamless
+                  control and complete confidence.
                 </p>
               </div>
             </div>
@@ -849,7 +851,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       data-sal-delay="300"
                     >
                       We evaluate results, gather feedback, and provide ongoing
-                      assistance for consistent client satisfaction..
+                      assistance for consistent client satisfaction.
                     </p>
                   </div>
                 </div>
@@ -1155,18 +1157,33 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                       >
                         <div className="pricing-table-header">
                           <div className="top d-flex justify-content-between align-items-start">
-                            <h4>basic</h4>
+                            <h4>Basic</h4>
                           </div>
                           <h1>
-                            $59 <span>/ Month</span>
+                            &#8358;3000 <span>/ Month</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
-                          <li>Basic identity & criminal record check</li>
-                          <li>Quick online submission</li>
-                          <li>Results delivered within 3–5 business days</li>
-                          <li>Remote/online process</li>
-                          <li>Limited email support (1 month)</li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Basic identity & criminal record check
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Quick online submission
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Results delivered within 3–5 business days
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Remote/online process
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Limited email support (1 month)
+                          </li>
                         </ul>
                         <a
                           href="#"
@@ -1187,15 +1204,30 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>Standard</h4>
                           </div>
                           <h1>
-                            $159 <span>/ Month</span>
+                            &#8358;5000 <span>/ Month</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
-                          <li>Standard identity & criminal record check</li>
-                          <li>Employment & reference verification</li>
-                          <li>Results delivered within 2–3 business days</li>
-                          <li>Remote/online process</li>
-                          <li>Support via email & phone (3 months)</li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Standard identity & criminal record check
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Employment & reference verification
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Results delivered within 2–3 business days
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Remote/online process
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Support via email & phone (3 months)
+                          </li>
                         </ul>
                         <div className="popular-tag">Popular</div>
                         <a href="#" className="tmp-btn btn-primary w-100">
@@ -1214,19 +1246,30 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>Premium</h4>
                           </div>
                           <h1>
-                            $259 <span>/ Month</span>
+                            &#8358;8000 <span>/ Month</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
                           <li>
-                            Enhanced & comprehensive criminal record check
+                            <MdOutlineRadioButtonChecked /> Enhanced &
+                            comprehensive criminal record check
                           </li>
                           <li>
-                            Employment, reference, and education verification
+                            <MdOutlineRadioButtonChecked /> Employment,
+                            reference, and education verification
                           </li>
-                          <li>Fast-track results within 24–48 hours</li>
-                          <li>Remote/online process</li>
-                          <li>Dedicated support (6 months)</li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Fast-track results within 24–48 hours
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Remote/online process
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Dedicated support (6 months)
+                          </li>
                         </ul>
                         <a
                           href="#"
@@ -1256,15 +1299,30 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>basic</h4>
                           </div>
                           <h1>
-                            $159 <span>/ Year</span>
+                            &#8358;15000 <span>/ Year</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
-                          <li>Basic identity & criminal record check</li>
-                          <li>Quick online submission</li>
-                          <li>Results delivered within 3–5 business days</li>
-                          <li>Remote/online process</li>
-                          <li>Limited email support (1 month)</li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Basic identity & criminal record check
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Quick online submission
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Results delivered within 3–5 business days
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Remote/online process
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Limited email support (1 month)
+                          </li>
                         </ul>
                         <a
                           href="#"
@@ -1285,15 +1343,30 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>Standard</h4>
                           </div>
                           <h1>
-                            $259 <span>/ Year</span>
+                            &#8358;20000 <span>/ Year</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
-                          <li>Standard identity & criminal record check</li>
-                          <li>Employment & reference verification</li>
-                          <li>Results delivered within 2–3 business days</li>
-                          <li>Remote/online process</li>
-                          <li>Support via email & phone (3 months)</li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Standard identity & criminal record check
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Employment & reference verification
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Results delivered within 2–3 business days
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Remote/online process
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Support via email & phone (3 months)
+                          </li>
                         </ul>
                         <div className="popular-tag">Popular</div>
                         <a href="#" className="tmp-btn btn-primary w-100">
@@ -1312,19 +1385,30 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>Premium</h4>
                           </div>
                           <h1>
-                            $759 <span>/ Year</span>
+                            &#8358;25000 <span>/ Year</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
                           <li>
-                            Enhanced & comprehensive criminal record check
+                            <MdOutlineRadioButtonChecked /> Enhanced &
+                            comprehensive criminal record check
                           </li>
                           <li>
-                            Employment, reference, and education verification
+                            <MdOutlineRadioButtonChecked /> Employment,
+                            reference, and education verification
                           </li>
-                          <li>Fast-track results within 24–48 hours</li>
-                          <li>Remote/online process</li>
-                          <li>Dedicated support (6 months)</li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Fast-track results within 24–48 hours
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Remote/online process
+                          </li>
+                          <li>
+                            <MdOutlineRadioButtonChecked />
+                            Dedicated support (6 months)
+                          </li>
                         </ul>
                         <a
                           href="#"
@@ -1522,7 +1606,9 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                               href="#"
                             >
                               <span className="icon-reverse-wrapper">
-                                <span className="btn-text">Request a Demo</span>
+                                <span className="btn-text">
+                                  Request a DBS Check
+                                </span>
                                 <span className="btn-icon">
                                   <i className="feather-arrow-right"></i>
                                 </span>
