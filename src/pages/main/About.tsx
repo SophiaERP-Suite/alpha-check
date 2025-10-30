@@ -407,18 +407,11 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                     aria-labelledby="irin-tab"
                   >
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Quibusdam ipsa, deleniti soluta minima minus asperiores
-                      doloribus enim vitae obcaecati fuga assumenda laudantium
-                      nemo odio provident nulla exercitationem tempore corrupti!
-                      Nemo.
-                    </p>
-
-                    <p>
-                      Quibusdam ipsa, deleniti soluta minima minus asperiores
-                      doloribus enim vitae obcaecati fuga assumenda laudantium
-                      nemo odio provident nulla exercitationem tempore corrupti!
-                      Nemo.
+                      Our mission is to deliver secure, efficient and compliant
+                      background checks through intuitive technology, expert
+                      guidance and inclusive service — enabling employers,
+                      institutions and agents to act with confidence and
+                      integrity.
                     </p>
                   </div>
 
@@ -429,18 +422,9 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                     aria-labelledby="profile-tab"
                   >
                     <p>
-                      Ipsum lorem dolor sit amet consectetur, adipisicing elit.
-                      Quibusdam ipsa, deleniti soluta minima minus asperiores
-                      doloribus enim vitae obcaecati fuga assumenda laudantium
-                      nemo odio provident nulla exercitationem tempore corrupti!
-                      Nemo.
-                    </p>
-
-                    <p>
-                      Ipsa Quibusdam, deleniti soluta minima minus asperiores
-                      doloribus enim vitae obcaecati fuga assumenda laudantium
-                      nemo odio provident nulla exercitationem tempore corrupti!
-                      Nemo.
+                      To empower every organisation and individual with
+                      trustworthy verification, ensuring a safe and transparent
+                      future across all sectors.
                     </p>
                   </div>
 
@@ -451,18 +435,33 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                     aria-labelledby="contact-tab"
                   >
                     <p>
-                      Exercitationem Ipsum lorem dolor sit amet consectetur,
-                      adipisicing elit. Quibusdam ipsa, deleniti soluta minima
-                      minus asperiores doloribus enim vitae obcaecati fuga
-                      assumenda laudantium nemo odio provident nulla tempore
-                      corrupti! Nemo.
-                    </p>
-
-                    <p>
-                      Ipsa Quibusdam, deleniti soluta minima minus asperiores
-                      doloribus enim vitae obcaecati fuga assumenda laudantium
-                      nemo odio provident nulla exercitationem tempore corrupti!
-                      Nemo.
+                      <ul className="values-list">
+                        <li>
+                          <strong>Integrity</strong> – We uphold the highest
+                          standards of honesty and ethics in every check and
+                          interaction.
+                        </li>
+                        <li>
+                          <strong>Security</strong> – We protect sensitive data
+                          with robust systems, ensuring privacy and trust for
+                          all users.
+                        </li>
+                        <li>
+                          <strong>Transparency</strong> – We make the
+                          verification process clear and accessible, for both
+                          our customers and their stakeholders.
+                        </li>
+                        <li>
+                          <strong>Inclusivity</strong> – We value every
+                          individual and organisation equally, promoting fair
+                          access regardless of size, sector or location.
+                        </li>
+                        <li>
+                          <strong>Excellence</strong> – We constantly refine our
+                          systems and expertise to deliver a top-tier
+                          verification experience.
+                        </li>
+                      </ul>
                     </p>
                   </div>
                 </div>
