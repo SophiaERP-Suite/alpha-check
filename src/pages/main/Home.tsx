@@ -221,7 +221,7 @@ const Home = () => {
                 </div>
                 <div className="content">
                   <h4 className="title w-600">
-                    <a href="#">Basic DBS Check</a>
+                    <a href="/services#basic-check">Basic DBS Check</a>
                   </h4>
                   <p className="description mb--0">
                     Checks for unspent convictions only. Ideal for low-risk
@@ -230,7 +230,7 @@ const Home = () => {
                   <div className="discover-btn mt--30">
                     <a
                       className="tmp-btn round btn-small btn-border hover-icon-reverse"
-                      href="#"
+                      href="/services#basic-check"
                     >
                       <span className="icon-reverse-wrapper">
                         <span className="btn-text">Discover services</span>
@@ -264,7 +264,7 @@ const Home = () => {
                 </div>
                 <div className="content">
                   <h4 className="title w-600">
-                    <a href="#">Standard DBS Check</a>
+                    <a href="/services#standard-check">Standard DBS Check</a>
                   </h4>
                   <p className="description mb--0">
                     Covers both spent and unspent convictions. Suitable for
@@ -273,7 +273,7 @@ const Home = () => {
                   <div className="discover-btn mt--30">
                     <a
                       className="tmp-btn round btn-small btn-border hover-icon-reverse"
-                      href="#"
+                      href="/services#standard-check"
                     >
                       <span className="icon-reverse-wrapper">
                         <span className="btn-text">Discover services</span>
@@ -307,7 +307,7 @@ const Home = () => {
                 </div>
                 <div className="content">
                   <h4 className="title w-600">
-                    <a href="#">Enhanced DBS Check</a>
+                    <a href="/services#enhanced-check">Enhanced DBS Check</a>
                   </h4>
                   <p className="description mb--0">
                     Includes full criminal records and barred lists. Perfect for
@@ -316,7 +316,7 @@ const Home = () => {
                   <div className="discover-btn mt--30">
                     <a
                       className="tmp-btn round btn-small btn-border hover-icon-reverse"
-                      href="#"
+                      href="/services#enhanced-check"
                     >
                       <span className="icon-reverse-wrapper">
                         <span className="btn-text">Discover services</span>
@@ -901,17 +901,6 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                         medical and caregiving staff — ensuring patient safety
                         and regulatory compliance.
                       </p>
-                      <a className="tmp-btn hover-icon-reverse" href="#">
-                        <span className="icon-reverse-wrapper">
-                          <span className="btn-text">See Details</span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                        </span>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -940,17 +929,6 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                         volunteers for past offences or misconduct before
                         employment.
                       </p>
-                      <a className="tmp-btn hover-icon-reverse" href="#">
-                        <span className="icon-reverse-wrapper">
-                          <span className="btn-text">See Details</span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                        </span>
-                      </a>
                     </div>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
@@ -996,17 +974,6 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                         to validate employee honesty, reduce insider risks, and
                         meet anti-fraud and compliance standards.
                       </p>
-                      <a className="tmp-btn hover-icon-reverse" href="#">
-                        <span className="icon-reverse-wrapper">
-                          <span className="btn-text">See Details</span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                        </span>
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -1036,17 +1003,6 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                         before placement, maintaining client confidence and
                         compliance with employment regulations.
                       </p>
-                      <a className="tmp-btn hover-icon-reverse" href="#">
-                        <span className="icon-reverse-wrapper">
-                          <span className="btn-text">See Details</span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                          <span className="btn-icon">
-                            <i className="feather-arrow-right"></i>
-                          </span>
-                        </span>
-                      </a>
                     </div>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
@@ -1589,7 +1545,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                           <div className="call-to-btn d-flex justify-content-center">
                             <a
                               className="tmp-btn btn-extra-large hover-icon-reverse"
-                              href="#"
+                              href="/request"
                             >
                               <span className="icon-reverse-wrapper">
                                 <span className="btn-text">
