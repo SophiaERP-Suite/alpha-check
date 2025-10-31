@@ -20,6 +20,7 @@ import { Toaster } from "react-hot-toast";
 
 const MainLayout = () => {
   const [registerType, setRegisterType] = useState<string>("agent");
+  const [registeredScripts, setRegisteredScripts] = useState<boolean>(false);
 
   useEffect(() => {
     feather.replace();
@@ -61,9 +62,11 @@ const MainLayout = () => {
           document.body.appendChild(script);
         });
       }
+
+      setRegisteredScripts(true);
     };
 
-    loadScriptsSequentially();
+    if (!registeredScripts) loadScriptsSequentially();
 
     return () => {
       scriptUrls.forEach((src) => {

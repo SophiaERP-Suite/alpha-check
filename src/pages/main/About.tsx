@@ -56,7 +56,7 @@ const About = () => {
               <div className="thumbnail-about-8">
                 <div className="large-image  invers-anime">
                   <img
-                    src="/assets/main/images/about/about-10.jpg"
+                    src="/assets/main/images/bg/ct_aboout.jpg"
                     alt=""
                     loading="lazy"
                   />
@@ -337,7 +337,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
             <div className="col-lg-5 order-1 order-lg-2">
               <img
                 className="radius-small"
-                src="/assets/main/images/about/about-1.jpg"
+                src="/assets/main/images/bg/ct_principles.jpg"
                 alt="Corporate Template"
               />
             </div>
@@ -618,8 +618,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                           <div className="thumbnail">
                             <img
                               className="w-100"
-                              src="/assets/main/images/timeline/timeline-01.jpg"
-                              alt="Corporate Html Template"
+                              src="/assets/main/images/bg/ct_work_process.jpg"
                             />
                           </div>
                         </div>
