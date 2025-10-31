@@ -37,7 +37,10 @@ const Services = () => {
 
           <div className="tmp-about-area mt--50">
             <div className="container">
-              <div className="row g-5 row--40 align-items-center">
+              <div
+                className="row g-5 row--40 align-items-center"
+                id="basic-check"
+              >
                 <div className="col-lg-6 order-2 order-xl-1">
                   <div className="content">
                     <div className="tmp-section-title-border text-start">
@@ -101,7 +104,7 @@ const Services = () => {
                       <div className="read-more-btn btn-group gap-4 mt--20">
                         <a
                           className="tmp-btn btn-primary round btn-large"
-                          href="#"
+                          href="/request"
                         >
                           Request Service
                         </a>
@@ -126,7 +129,10 @@ const Services = () => {
                 </div>
               </div>
 
-              <div className="row g-5 row--40 align-items-center mt--40">
+              <div
+                className="row g-5 row--40 align-items-center mt--40"
+                id="standard-check"
+              >
                 <div className="col-lg-6 order-1 order-xl-2 pl--60">
                   <div className="content">
                     <div className="tmp-section-title-border text-start">
@@ -178,7 +184,7 @@ const Services = () => {
                       <div className="read-more-btn btn-group gap-4 mt--20">
                         <a
                           className="tmp-btn btn-primary round btn-large"
-                          href="#"
+                          href="/request"
                         >
                           Request Service
                         </a>
@@ -203,7 +209,10 @@ const Services = () => {
                 </div>
               </div>
 
-              <div className="row g-5 row--40 align-items-center mt--40">
+              <div
+                className="row g-5 row--40 align-items-center mt--40"
+                id="enhanced-check"
+              >
                 <div className="col-lg-6 order-2 order-xl-1">
                   <div className="content">
                     <div className="tmp-section-title-border text-start">
@@ -253,7 +262,7 @@ const Services = () => {
                       <div className="read-more-btn btn-group gap-4 mt--20">
                         <a
                           className="tmp-btn btn-primary round btn-large"
-                          href="#"
+                          href="/request"
                         >
                           Request Service
                         </a>
@@ -540,7 +549,7 @@ const Services = () => {
                           <div className="call-to-btn d-flex justify-content-center">
                             <a
                               className="tmp-btn btn-extra-large hover-icon-reverse"
-                              href="#"
+                              href="/request"
                             >
                               <span className="icon-reverse-wrapper">
                                 <span className="btn-text">

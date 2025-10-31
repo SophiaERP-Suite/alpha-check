@@ -314,7 +314,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                     mind.
                   </p>
                 </div>
-                <a href="#" className="tmp-btn btn-primary">
+                <a href="/services" className="tmp-btn btn-primary">
                   Our Services
                 </a>
               </div>
@@ -458,7 +458,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
           </div>
         </div>
       </div>
-      ;{/* Work Process */}
+      {/* Work Process */}
       <div className="tmp-timeline-area tmp-section-gapTop">
         <div className="container">
           <div className="row">
@@ -645,7 +645,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
             </div>
             <div className="content">
               <div className="icon">
-                <a href="#">
+                <a href="/contact">
                   <i className="feather-phone"></i>
                 </a>
               </div>

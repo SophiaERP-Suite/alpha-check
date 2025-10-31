@@ -57,13 +57,13 @@ const Footer = () => {
                       <a href="#">How It Works</a>
                     </li>
                     <li>
-                      <a href="#">Basic DBS Check</a>
+                      <a href="/services#basic-check">Basic DBS Check</a>
                     </li>
                     <li>
-                      <a href="#">Standard DBS Check</a>
+                      <a href="/services#standard-check">Standard DBS Check</a>
                     </li>
                     <li>
-                      <a href="#">Enhanced DBS Check</a>
+                      <a href="/services#enhanced-check">Enhanced DBS Check</a>
                     </li>
                   </ul>
                 </div>
