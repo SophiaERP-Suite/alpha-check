@@ -46,7 +46,10 @@ const Signup = () => {
   return (
     <>
       {/* Banner Area */}
-      <div className="pages-banner">
+      <div
+        className="pages-banner"
+        style={{ background: "url(/assets/main/images/bg/ct_register.jpg)" }}
+      >
         <div className="pages-banner-content">
           <h2>
             Register as an <span className="register-type">{registerType}</span>

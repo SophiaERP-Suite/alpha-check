@@ -44,7 +44,7 @@ const Login = () => {
             <div className="col-lg-5">
               <div className="aapoiment-left-area-thumbnail">
                 <img
-                  src="/assets/main/images/appoinment/01.webp"
+                  src="/assets/main/images/bg/ct_login.jpg"
                   alt="appoinment"
                 />
               </div>
