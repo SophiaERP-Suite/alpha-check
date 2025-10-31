@@ -33,13 +33,13 @@ const Footer = () => {
                 <div className="inner">
                   <ul className="footer-link link-hover">
                     <li>
-                      <a href="#">Login</a>
+                      <a href="/login">Login</a>
                     </li>
                     <li>
                       <a href="/about">About</a>
                     </li>
                     <li>
-                      <a href="#">Solutions</a>
+                      <a href="#">Request</a>
                     </li>
                     <li>
                       <a href="#">Pricing</a>

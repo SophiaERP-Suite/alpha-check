@@ -10201,6 +10201,7 @@ input[type=radio]~label::after {
 
 .form-group input:focus {
   border-color: var(--color-primary);
+  outline-color: var(--color-primary);
 }
 
 .form-group textarea {
@@ -34681,9 +34682,12 @@ body.tmp-body-star::before {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.pages-banner-content {
   padding: 16rem 10rem;
   padding-right: 1rem;
-
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .pages-banner h2 {
@@ -34793,23 +34797,30 @@ body.tmp-body-star::before {
 }
 
 .cart-icon svg {
-  width: 28px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
   transition: all 0.3s;
+}
+
+
+.header-default.header-transparent.header-one.sticky .cart-icon svg,
+.header-not-transparent .cart-icon svg {
+  color: black;
 }
 
 
 .header-default.header-transparent.header-one.sticky .cart-icon svg path,
 .header-not-transparent .cart-icon svg path {
-  fill: black;
+  color: black;
 }
 
 .cart-icon svg path {
   transition: all 0.3s;
 }
 
+.cart-container:hover .cart-icon svg,
 .cart-container:hover .cart-icon svg path {
-  fill: var(--color-primary) !important;
+  color: var(--color-primary) !important;
 }
 
 .register-type {
@@ -34823,6 +34834,36 @@ body.tmp-body-star::before {
 .values-list li {
   font-size: 16px !important
 }
+
+.services-container .services-item {
+  margin-bottom: 60px;
+}
+
+.slider-area.slider-style-2 {
+  position: relative;
+}
+
+.banner-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.service-features-container ul {
+  list-style-type: circle;
+  margin-bottom: 0;
+
+}
+
+.service-features-container ul li {
+  font-size: 16px;
+  position: relative;
+}
+
 
 /* Media Queries */
 

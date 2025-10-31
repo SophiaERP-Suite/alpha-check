@@ -5,6 +5,9 @@ import Register from "../pages/main/Register";
 import Login from "../pages/main/Login";
 import Contact from "../pages/main/Contact";
 import About from "../pages/main/About";
+import RegisterConfirmation from "../pages/main/RegisterConfirmation";
+import AccountVerification from "../pages/main/AccountVerification";
+import Services from "../pages/main/Services";
 
 function AppRoutes() {
   return (
@@ -16,6 +19,12 @@ function AppRoutes() {
         <Route path="login" element={<Login />} />
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
+        <Route
+          path="registration-confirmation"
+          element={<RegisterConfirmation />}
+        />
+        <Route path="account-verification" element={<AccountVerification />} />
+        <Route path="services" element={<Services />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

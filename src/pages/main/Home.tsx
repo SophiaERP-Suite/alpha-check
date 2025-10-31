@@ -8,6 +8,7 @@ const Home = () => {
         {/* Start Slider Area  */}
         <div className="slider-animation-2 slider-activation-2 slider-dot tmp-slick-dot tmp-slick-arrow tmp-slick-arrow-white">
           <div className="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--10">
+            <div className="banner-overlay">&nbsp;</div>
             <div className="container">
               <div className="row">
                 <div className="col-lg-10 col-xl-10">
@@ -67,6 +68,7 @@ const Home = () => {
           </div>
 
           <div className="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--13">
+            <div className="banner-overlay">&nbsp;</div>
             <div className="container">
               <div className="row">
                 <div className="col-lg-10 col-xl-10">
@@ -127,6 +129,7 @@ const Home = () => {
           </div>
 
           <div className="slider-area slider-style-2 d-flex variation-2 height-850 bg_image bg_image--19">
+            <div className="banner-overlay">&nbsp;</div>{" "}
             <div className="container">
               <div className="row">
                 <div className="col-lg-10 col-xl-10">
@@ -346,27 +349,10 @@ const Home = () => {
               <div className="thumbnail-about-8">
                 <div className="large-image  invers-anime">
                   <img
-                    src="/assets/main/images/about/about-10.jpg"
+                    src="/assets/main/images/bg/ct_aboutus_section.jpg"
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div className="small-iamge-area images-left-right-float">
-                  <img
-                    src="/assets/main/images/about/about-12.png"
-                    alt=""
-                    loading="lazy"
-                  />
-                  <div className="video-icon">
-                    <a
-                      className="tmp-btn rounded-player popup-video"
-                      href="https://www.youtube.com/watch?v=4jnzf1yj48M"
-                    >
-                      <span>
-                        <i className="feather-play"></i>
-                      </span>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -893,7 +879,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                   <div className="col-lg-6">
                     <a href="#" className="thumbnail-service-list invers-anime">
                       <img
-                        src="/assets/main/images/services/list/01.webp"
+                        src="/assets/main/images/bg/ct_health.jpg"
                         alt="Business consulting"
                       />
                     </a>
@@ -970,7 +956,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                   <div className="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
                     <a href="#" className="thumbnail-service-list invers-anime">
                       <img
-                        src="/assets/main/images/services/list/02.webp"
+                        src="/assets/main/images/bg/ct_educator.jpg"
                         alt="Business consulting"
                       />
                     </a>
@@ -987,7 +973,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                   <div className="col-lg-6">
                     <a href="#" className="thumbnail-service-list invers-anime">
                       <img
-                        src="/assets/main/images/services/list/03.webp"
+                        src="/assets/main/images/bg/ct_corporate.jpg"
                         alt="Business consulting"
                       />
                     </a>
@@ -1066,7 +1052,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                   <div className="col-lg-6 order-1 order-lg-2 order-md-1 order-sm-1">
                     <a href="#" className="thumbnail-service-list invers-anime">
                       <img
-                        src="/assets/main/images/services/list/04.webp"
+                        src="/assets/main/images/bg/ct_recruit.jpg"
                         alt="Business consulting"
                       />
                     </a>
@@ -1299,7 +1285,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>basic</h4>
                           </div>
                           <h1>
-                            &#8358;15000 <span>/ Year</span>
+                            &#8358;30000 <span>/ Year</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
@@ -1343,7 +1329,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>Standard</h4>
                           </div>
                           <h1>
-                            &#8358;20000 <span>/ Year</span>
+                            &#8358;50000 <span>/ Year</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
@@ -1385,7 +1371,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                             <h4>Premium</h4>
                           </div>
                           <h1>
-                            &#8358;25000 <span>/ Year</span>
+                            &#8358;80000 <span>/ Year</span>
                           </h1>
                         </div>
                         <ul className="feature-lists">
@@ -1448,7 +1434,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                 <img
                   className="w-100 radius"
                   loading="lazy"
-                  src="/assets/main/images/about/about-4.png"
+                  src="/assets/main/images/bg/ct_faq.jpg"
                   alt="About Images"
                 />
               </div>
@@ -1652,7 +1638,7 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                                 Join Other Organizations
                               </h5>
                               <p className="subtitle">
-                                <a className="btn-read-more" href="#">
+                                <a className="btn-read-more" href="/contact">
                                   <span>Contact Us</span>
                                 </a>
                               </p>
@@ -1665,16 +1651,16 @@ c-0.703,1.213-0.543,2.688-0.404,3.406C20.229,6.225,20.387,5.914,20.573,5.593z"
                                         <img src="/assets/main/images/shape/01.png" alt="call-to-action">
                                     </div> */}
                     <div className="person-stand images-left-right-float">
-                      <img
+                      {/* <img
                         loading="lazy"
                         src="/assets/main/images/call-to-action/01.png"
                         alt="call-to-action"
-                      />
+                      /> */}
                     </div>
                     <div className="bg-shape-area-cta-main tmponhover">
                       <img
                         loading="lazy"
-                        src="/assets/main/images/shape/02.webp"
+                        src="/assets/main/images/bg/ct_request.jpg"
                         alt=""
                       />
                     </div>
