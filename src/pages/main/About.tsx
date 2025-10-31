@@ -2,7 +2,10 @@ const About = () => {
   return (
     <>
       {/* Banner Area */}
-      <div className="pages-banner">
+      <div
+        className="pages-banner"
+        style={{ background: "url(/assets/main/images/bg/ct_about_us.jpg)" }}
+      >
         <div className="pages-banner-content">
           <h2>About Our Organization</h2>
 
@@ -57,23 +60,6 @@ const About = () => {
                     alt=""
                     loading="lazy"
                   />
-                </div>
-                <div className="small-iamge-area images-left-right-float">
-                  <img
-                    src="/assets/main/images/about/about-12.png"
-                    alt=""
-                    loading="lazy"
-                  />
-                  <div className="video-icon">
-                    <a
-                      className="tmp-btn rounded-player popup-video"
-                      href="https://www.youtube.com/watch?v=4jnzf1yj48M"
-                    >
-                      <span>
-                        <i className="feather-play"></i>
-                      </span>
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
