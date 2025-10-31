@@ -34878,6 +34878,9 @@ body.tmp-body-star::before {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: calc(50% - 25px) calc(50% - 25px);
+  column-gap: 50px;
 }
 
 .request-verification-list li {
@@ -34895,7 +34898,7 @@ body.tmp-body-star::before {
 
 .request-verification-list li div {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   column-gap: 16px;
 }
 
@@ -34936,6 +34939,16 @@ body.tmp-body-star::before {
   cursor: pointer;
   width: 100%;
 }
+
+select {
+  cursor: pointer;
+}
+
+.privacy-policy-section li,
+.privacy-policy-section pre {
+  font-size: 16px !important;
+}
+
 
 /* Media Queries */
 

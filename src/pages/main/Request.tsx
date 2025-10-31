@@ -4,9 +4,11 @@ const Request = () => {
   const [requestObj, setRequestObj] = useState<{
     type: "basic" | "standard" | "enhanced";
     stage: number;
+    paymentMethod: "card" | "transfer";
   }>({
     type: "basic",
     stage: 0,
+    paymentMethod: "card",
   });
 
   const serviceDescriptionRef = useRef<HTMLDivElement>(null!);
@@ -44,7 +46,7 @@ const Request = () => {
     let stage;
 
     if (type === "next") {
-      stage = Math.min(2, requestObj.stage + 1);
+      stage = Math.min(3, requestObj.stage + 1);
     } else {
       stage = Math.max(0, requestObj.stage - 1);
     }
@@ -321,15 +323,6 @@ const Request = () => {
                       </div>
 
                       <div className="request-btn-box">
-                        <div className="read-more-btn">
-                          <a
-                            className="tmp-btn round btn-large btn-border"
-                            onClick={changeStage("prev")}
-                          >
-                            Previous
-                          </a>
-                        </div>
-
                         <div
                           className="read-more-btn btn-group service-btn"
                           onClick={changeStage("next")}
@@ -520,7 +513,7 @@ const Request = () => {
               </div>
             </div>
           </div>
-        ) : (
+        ) : requestObj.stage === 2 ? (
           <div className="container" ref={containerRef}>
             <div className="row g-5">
               <div className="col-12">
@@ -610,6 +603,110 @@ const Request = () => {
                     >
                       <a className="tmp-btn btn-primary round btn-large">
                         Next
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="container" ref={containerRef}>
+            <div className="row g-5">
+              <div className="col-12">
+                <form
+                  className="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form"
+                  id="contact-form"
+                  onSubmit={(e) => e.preventDefault()}
+                >
+                  <div className="section-title">
+                    <h4 className="tmp-title-style-3">Payment Details</h4>
+                  </div>
+
+                  <div className="row g-5 register-form-row">
+                    <div className="col-12">
+                      <label>Payment Method *</label>
+                      <div className="form-group tmponhover">
+                        <select
+                          value={requestObj.paymentMethod}
+                          onChange={(e) =>
+                            setRequestObj((prev) => ({
+                              ...prev,
+                              paymentMethod: e.target.value as
+                                | "card"
+                                | "transfer",
+                            }))
+                          }
+                        >
+                          <option value={"card"}>Bank Card</option>
+                          <option value={"transfer"}>Transfer</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    {requestObj.paymentMethod === "transfer" && (
+                      <div className="col-12">
+                        <label>Payment Receipt *</label>
+                        <div className="form-group tmponhover">
+                          <input
+                            type="file"
+                            name="contact-name"
+                            id="contact-name"
+                            required
+                          />
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="mt--20">
+                    <ul>
+                      <li>
+                        <b>Service Name:</b>{" "}
+                        <span style={{ textTransform: "capitalize" }}>
+                          {requestObj.type}
+                        </span>{" "}
+                        DBS Check
+                      </li>
+                      <li>
+                        <b>Service Feee:</b> &#8358;30, 000
+                      </li>
+                    </ul>
+                  </div>
+
+                  {requestObj.paymentMethod === "transfer" && (
+                    <div className="mt--20">
+                      <h5>Bank Details </h5>
+                      <ul>
+                        <li>
+                          <b>Bank Name:</b> United Bank of Africa (UBA)
+                        </li>
+                        <li>
+                          <b>Account Name:</b> ClearTrust Africa
+                        </li>
+                        <li>
+                          <b>Account Number:</b> 2345678901
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+
+                  <div className="request-btn-box">
+                    <div className="read-more-btn">
+                      <a
+                        className="tmp-btn round btn-large btn-border"
+                        onClick={changeStage("prev")}
+                      >
+                        Previous
+                      </a>
+                    </div>
+
+                    <div className="read-more-btn btn-group service-btn">
+                      <a className="tmp-btn btn-primary round btn-large">
+                        {requestObj.paymentMethod === "card"
+                          ? "Make"
+                          : "Confirm"}{" "}
+                        Payment
                       </a>
                     </div>
                   </div>

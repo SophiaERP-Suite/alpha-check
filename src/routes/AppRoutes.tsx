@@ -9,6 +9,7 @@ import RegisterConfirmation from "../pages/main/RegisterConfirmation";
 import AccountVerification from "../pages/main/AccountVerification";
 import Services from "../pages/main/Services";
 import Request from "../pages/main/Request";
+import PrivacyPolicy from "../pages/main/PrivacyPolicy";
 
 function AppRoutes() {
   return (
@@ -27,6 +28,7 @@ function AppRoutes() {
         <Route path="account-verification" element={<AccountVerification />} />
         <Route path="services" element={<Services />} />
         <Route path="request" element={<Request />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

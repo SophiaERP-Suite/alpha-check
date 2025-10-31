@@ -117,7 +117,7 @@ const Footer = () => {
               <div className="copyright-left">
                 <ul className="ft-menu link-hover">
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <a href="/privacy-policy">Privacy Policy</a>
                   </li>
                   <li>
                     <a href="#">Terms And Condition</a>

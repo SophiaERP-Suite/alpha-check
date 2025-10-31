@@ -3,7 +3,7 @@ import { RegisterContext } from "../../utils/main/Context";
 import { Link, useLocation } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 
-const secondHeaderPaths = ["login"];
+const secondHeaderPaths = ["login", "privacy-policy"];
 
 const Header = () => {
   const { setRegisterType } = useContext(RegisterContext);
