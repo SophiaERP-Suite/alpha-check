@@ -3,14 +3,16 @@ const Contact = () => {
     <div className="main-content">
       {/* Banner Area */}
       <div className="pages-banner">
-        <h2>Get in Touch With Us</h2>
+        <div className="pages-banner-content">
+          <h2>Get in Touch With Us</h2>
 
-        <ul>
-          <li>
-            <a href="/home">Home</a>
-          </li>
-          <li>Contact</li>
-        </ul>
+          <ul>
+            <li>
+              <a href="/home">Home</a>
+            </li>
+            <li>Contact</li>
+          </ul>
+        </div>
       </div>
       <div className="tmp-contact-area tmp-section-gap contact-details">
         <div className="container">

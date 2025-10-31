@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { RegisterContext } from "../../utils/main/Contextx";
+import { RegisterContext } from "../../utils/main/Context";
 import { Link, useLocation } from "react-router-dom";
-import { FaCartShopping } from "react-icons/fa6";
+import { IoCartOutline } from "react-icons/io5";
 
 const secondHeaderPaths = ["login"];
 
@@ -112,7 +112,7 @@ const Header = () => {
                       <a href="#">How it works</a>
                     </li>
                     <li className="with-megamenu">
-                      <a href="#">Services</a>
+                      <a href="/services">Services</a>
                     </li>
                     <li className="with-megamenu">
                       <a href="#">Request </a>
@@ -172,7 +172,7 @@ const Header = () => {
                   <div className="cart-container">
                     <span>
                       <span className="cart-icon">
-                        <FaCartShopping />
+                        <IoCartOutline />
                       </span>
                     </span>
                   </div>

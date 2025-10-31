@@ -1,10 +1,12 @@
 import { useContext, useEffect, useRef } from "react";
-import { RegisterContext } from "../../utils/main/Contextx";
+import { RegisterContext } from "../../utils/main/Context";
+import toast from "react-hot-toast";
 
 const Signup = () => {
   const { registerType, setRegisterType } = useContext(RegisterContext);
 
   const formRef = useRef<HTMLDivElement>(null!);
+  const redirectTimeout = useRef<number>(null!);
 
   const handleRegisterChange = (value: string) => () => {
     setRegisterType(value);
@@ -27,20 +29,36 @@ const Signup = () => {
     }
   }, [registerType]);
 
+  const submitForm = () => {
+    toast.dismissAll();
+    clearTimeout(redirectTimeout.current);
+
+    toast.success(
+      "Account created successfully. Please verify your email to complete registration."
+    );
+
+    redirectTimeout.current = setTimeout(
+      () => (window.location.href = "/account-verification"),
+      4500
+    );
+  };
+
   return (
     <>
       {/* Banner Area */}
       <div className="pages-banner">
-        <h2>
-          Register as an <span className="register-type">{registerType}</span>
-        </h2>
+        <div className="pages-banner-content">
+          <h2>
+            Register as an <span className="register-type">{registerType}</span>
+          </h2>
 
-        <ul>
-          <li>
-            <a href="/home">Home</a>
-          </li>
-          <li>Register</li>
-        </ul>
+          <ul>
+            <li>
+              <a href="/home">Home</a>
+            </li>
+            <li>Register</li>
+          </ul>
+        </div>
       </div>
 
       <div className="tmp-contact-area tmp-section-gap register-tag">
@@ -136,9 +154,10 @@ const Signup = () => {
                 <form
                   className="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form"
                   id="contact-form"
+                  onSubmit={(e) => e.preventDefault()}
                 >
                   <div className="section-title">
-                    <h4 className="tmp-title-style-3">Organization Profile</h4>
+                    <h4 className="tmp-title-style-3">Employer Profile</h4>
                   </div>
 
                   <div className="row g-5 register-form-row">
@@ -189,13 +208,13 @@ const Signup = () => {
                       </select>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <label>Registration Number / License ID *</label>
+                      <label> Institution Name *</label>
                       <div className="form-group tmponhover">
                         <input
                           type="text"
                           name="contact-name"
                           id="contact-name"
-                          placeholder="Registration Number"
+                          placeholder="Institution Name"
                           required
                         />
                       </div>
@@ -232,33 +251,6 @@ const Signup = () => {
                           name="contact-name"
                           id="contact-name"
                           placeholder="Official Address"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="section-title">
-                    <h4 className="tmp-title-style-3 mt-3">
-                      Verification Details
-                    </h4>
-                  </div>
-
-                  <div className="row g-5 register-form-row">
-                    <div className="col-lg-6 col-md-12">
-                      <label>Business Registration Certificate *</label>
-                      <div className="form-group tmponhover">
-                        <input type="file" required />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
-                      <label>Employer Identification Code *</label>
-                      <div className="form-group tmponhover">
-                        <input
-                          type="text"
-                          name="contact-name"
-                          id="contact-name"
-                          placeholder="Employer Identification Code"
                           required
                         />
                       </div>
@@ -305,6 +297,7 @@ const Signup = () => {
                       id="submit"
                       className="btn-default btn-large tmp-btn"
                       style={{ width: "100%;" }}
+                      onClick={submitForm}
                     >
                       <span>Submit Now</span>
                     </button>
@@ -328,6 +321,7 @@ const Signup = () => {
                 <form
                   className="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form"
                   id="contact-form"
+                  onSubmit={(e) => e.preventDefault()}
                 >
                   <div className="section-title">
                     <h4 className="tmp-title-style-3">Institution Profile</h4>
@@ -363,15 +357,9 @@ const Signup = () => {
                       </select>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                      <label>Registration Number *</label>
+                      <label>Date Established *</label>
                       <div className="form-group tmponhover">
-                        <input
-                          type="text"
-                          name="contact-name"
-                          id="contact-name"
-                          placeholder="Registration Number"
-                          required
-                        />
+                        <input type="month" required />
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
@@ -411,31 +399,7 @@ const Signup = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="section-title">
-                    <h4 className="tmp-title-style-3 mt-3">
-                      Verification Details
-                    </h4>
-                  </div>
 
-                  <div className="row g-5 register-form-row">
-                    <div className="col-lg-6 col-md-12">
-                      <label>Certificate of Incorporation *</label>
-                      <div className="form-group tmponhover">
-                        <input type="file" required />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
-                      <label>Date of Establishment *</label>
-                      <div className="form-group tmponhover">
-                        <input
-                          type="date"
-                          name="contact-name"
-                          id="contact-name"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
                   <div className="section-title">
                     <h4 className="tmp-title-style-3 mt-3">
                       Access Credentials
@@ -474,6 +438,7 @@ const Signup = () => {
                       id="submit"
                       className="btn-default btn-large tmp-btn"
                       style={{ width: "100%;" }}
+                      onClick={submitForm}
                     >
                       <span>Submit Now</span>
                     </button>
@@ -498,6 +463,7 @@ const Signup = () => {
                 <form
                   className="contact-form-1 appoinment-form-wrapper tmponhover tmp-dynamic-form"
                   id="contact-form"
+                  onSubmit={(e) => e.preventDefault()}
                 >
                   <div className="section-title">
                     <h4 className="tmp-title-style-3">Personal Information</h4>
@@ -580,12 +546,6 @@ const Signup = () => {
                         />
                       </div>
                     </div>
-                  </div>
-                  <div className="section-title">
-                    <h4 className="tmp-title-style-3 mt-3">Work Details</h4>
-                  </div>
-
-                  <div className="row g-5 register-form-row">
                     <div className="col-lg-6 col-md-12">
                       <label> Institution Name *</label>
                       <div className="form-group tmponhover">
@@ -596,41 +556,6 @@ const Signup = () => {
                           placeholder="Institution Name"
                           required
                         />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
-                      <label>Role *</label>
-                      <div className="form-group tmponhover">
-                        <input
-                          type="text"
-                          name="contact-name"
-                          id="contact-name"
-                          placeholder="Role"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="section-title">
-                    <h4 className="tmp-title-style-3 mt-3">
-                      Verification Details
-                    </h4>
-                  </div>
-
-                  <div className="row g-5 register-form-row">
-                    <div className="col-lg-6 col-md-12">
-                      <label>
-                        Valid ID (National ID, Driver’s License, or Passport) *
-                      </label>
-                      <div className="form-group tmponhover">
-                        <input type="file" required />
-                      </div>
-                    </div>
-                    <div className="col-lg-6 col-md-12">
-                      <label>Proof of Employment *</label>
-                      <div className="form-group tmponhover">
-                        <input type="file" required />
                       </div>
                     </div>
                   </div>
@@ -673,6 +598,7 @@ const Signup = () => {
                       id="submit"
                       className="btn-default btn-large tmp-btn"
                       style={{ width: "100%;" }}
+                      onClick={submitForm}
                     >
                       <span>Submit Now</span>
                     </button>

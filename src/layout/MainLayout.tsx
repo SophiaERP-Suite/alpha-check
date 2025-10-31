@@ -12,7 +12,8 @@ import "../assets/main/css/plugins/odometer.css";
 import "../assets/main/css/stylea3ca.css";
 import { useEffect, useState } from "react";
 import feather from "feather-icons";
-import { RegisterContext } from "../utils/main/Contextx";
+import { RegisterContext } from "../utils/main/Context";
+import { Toaster } from "react-hot-toast";
 
 // Employee
 // request a dbs checkPrime, for employee, conuntry, state, city
@@ -74,6 +75,18 @@ const MainLayout = () => {
 
   return (
     <div className="active-light-mode">
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+        toastOptions={{
+          duration: 4000,
+          style: {
+            fontSize: "15px",
+            width: "auto",
+          },
+        }}
+      />
+
       <RegisterContext.Provider
         value={{
           registerType,
